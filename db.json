@@ -1,9 +1,21 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "data": {
+    "todos": [
+      {
+        "id": "c1781de4-f792-42f9-af37-0f7e0aba93dd",
+        "title": "Учить javascript",
+        "isCompleted": true
+      },
+      {
+        "id": "718c714c-b6e6-4344-bfb9-0b17d484c538",
+        "title": "Смотреть YouTube",
+        "isCompleted": false
+      },
+      {
+        "id": "810700a7-65bf-402a-9725-215335e38aa9",
+        "title": "Читать книги",
+        "isCompleted": false
+      }
+    ]
+  }
 }
